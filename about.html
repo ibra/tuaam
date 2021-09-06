@@ -1,0 +1,495 @@
+<head>
+  <title>About - Tuaam Foundation</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="img/icons/logo.png" />
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/default.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" class="color-changing" href="css/color.css" />
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="index.html">TUAAM</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gallery.html">Gallery</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About Us
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="about.html#Vision">Vision</a>
+          <a class="dropdown-item" href="about.html#Mission">Mission</a>
+          <a class="dropdown-item" href="about.html#History">History</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<body>
+  <section class="bg-light-white pt-90 pb-90 pb-md-50">
+    <div class="container">
+      <div class="row" id="Vision">
+        <div class="col-lg-12 text-center">
+          <img src="img/icons/line.png" alt="" class="line mb-15" />
+          <h1 class="fs-42 slab f-800" style="color: black">Our Vision</h1>
+          <h4 class="location-mp" style="color: rgb(17, 17, 17)">
+            We want a country where no man, woman, or child ever goes even a
+            single night while being hungry. Tuaam aims to actively implement
+            plans for the benefit of needy families all across Pakistan.
+          </h4>
+          <img
+            src="img/about/tokri.png"
+            alt="Picture of one of our projects"
+            class="line mb-15"
+          />
+        </div>
+      </div>
+      <div class="row" id="Mission">
+        <div class="col-lg-12 text-center">
+          <img src="img/icons/line.png" alt="" class="line mb-15" />
+          <h1 class="fs-42 slab f-800" style="color: black">Our Mission</h1>
+          <h4 class="location-mp" style="color: rgb(17, 17, 17)">
+            Several sub-projects within the Tuaam Foundation have already been
+            started and many more are planned. 
+            <br>
+            <br />
+            Some Notable ones include:
+            <br />
+            <br>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <b>Naiki ki Tokri</b> - Crowdsourcing rotis by placing a basket
+                on stalls that sell them, allowing for people to add their own
+                rotis to the basket.
+              </li>
+              <li class="list-group-item"><b>Naiki ka Dastarkhwan</b> - A project where free cooked meals are distributed consistently on a weekly basis to those in need</b></li>
+              <li class="list-group-item"><b>Naiki ka Thela</b> - Providing free cooked meals through pushcarts on a weekly basis, currently at 5 locations across pakistan</li>
+            </ul>
+          </h4>
+          <img
+            src="img/about/naiki.png"
+            alt="Man drawing rotis from naiki ki tokri"
+            class="line mb-15"
+          />
+        </div>
+      </div>
+      <div class="row" id="History">
+        <div class="col-lg-12 text-center">
+          <img src="img/icons/line.png" alt="" class="line mb-15" />
+          <h1 class="fs-42 slab f-800" style="color: black">Our History</h1>
+          <h4 class="location-mp" style="color: rgb(17, 17, 17)">
+            Tuaam was originally founded was founded on 27th Ramdan ul Mubarik by renowned author and educationist Dr Muhammad Hamid. The movement started with a humble effort of 2 Tandoors in Lahore. Then, it picked up its momentum and expanded into twin cities of Rawalpindi and Islamabad. From there it grew exponentially and can now be found all across Pakistan. Dr. Hamid's vision was to aid the most vulnerable in Pakistan, and that is what the Tuaam Foundation is all about.
+          </h4>
+          <img
+            src="img/about/hamid.jpg"
+            alt="Picture of one of our projects"
+            class="line mb-15"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- bootstrap_modal starts here -->
+  <div
+    class="modal fade"
+    id="volunteerModal"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="volunteerModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-body" style="padding: 20px">
+          <div class="text-center" style="padding: 20px 0">
+            <h4><strong>PLEASE FILL IN YOUR PARTICULARS</strong></h4>
+            <button
+              type="button"
+              class="close text-right"
+              data-dismiss="modal"
+              style="position: absolute; top: 6px; right: 8px"
+            >
+              &times;
+            </button>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text"
+                ><img src="img/images/name.png" width="15"
+              /></span>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Full Name"
+              id="register-full-name"
+              name="register-full-name"
+            />
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text"
+                ><img src="img/images/mail.png" width="15"
+              /></span>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Email Address"
+              id="register-email"
+              name="register-email"
+            />
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text"
+                ><img src="img/images/password.png" width="15"
+              /></span>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Password"
+              id="register-password"
+              name="register-password"
+            />
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text"
+                ><img src="img/images/password.png" width="15"
+              /></span>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Re-enter Password"
+              id="register-repeated-password"
+              name="register-repeated-password"
+            />
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text"
+                ><img src="img/images/telephone.png" width="15"
+              /></span>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Phone Number"
+              id="register-phone-number"
+              name="register-phone-number"
+            />
+          </div>
+
+          <div class="mb-3">
+            <div class="" style="width: 100%">
+              <button type="button" class="btn btn-warning">CONTINUE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- end Volunteers -->
+
+  <!-- money section -->
+  <div
+    class="modal fade"
+    id="moneyModal"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="moneyModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-body" style="padding: 80px 0">
+          <div class="row justify-content-md-center card-deck">
+            <button
+              type="button"
+              class="close text-right"
+              data-dismiss="modal"
+              style="position: absolute; top: 6px; right: 8px"
+            >
+              &times;
+            </button>
+            <div class="col-sm-3 card bg-grey">
+              <div class="card-body text-center">
+                <img src="img/images/paypal.png" width="105" />
+                <p class="card-text">PAYPAL</p>
+                <div class="text-center" style="width: 100%">
+                  <button type="button" class="btn btn-warning">
+                    CONTINUE
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 card bg-grey">
+              <div class="card-body text-center">
+                <img src="img/images/credit_card.png" width="100" />
+                <p class="card-text">CREDIT CARD</p>
+                <div class="text-center" style="width: 100%">
+                  <button type="button" class="btn btn-warning">
+                    CONTINUE
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Large modal -->
+
+  <div
+    class="modal fade"
+    id="foodModal"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="foodModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="food-details">
+            <div class="text-center food-details-heading">
+              <h4><strong>Donate Food Details</strong></h4>
+            </div>
+            <button
+              type="button"
+              class="close text-right"
+              data-dismiss="modal"
+              style="position: absolute; top: 6px; right: 8px"
+            >
+              &times;
+            </button>
+            <form>
+              <div class="form-group">
+                <label for="food-item" class="col-form-label">Food Item</label>
+                <br />
+                <p class="text-muted">Please specify, "5 Tins of Milo"</p>
+                <input type="text" class="form-control" id="food-item" />
+              </div>
+              <div class="form-group">
+                <label for="preferred-time" class="col-form-label"
+                  >Preferred Time</label
+                >
+                <select class="form-control" id="preferred-time">
+                  <option value="9am-11am">9am-11am</option>
+                  <option value="11am-1pm">11am-1pm</option>
+                  <option value="11am-1pm">1pm-3pm</option>
+                  <option value="11am-1pm">3pm-5pm</option>
+                  <option value="11am-1pm">5pm-7pm</option>
+                  <option value="11am-1pm">7pm-9pm</option>
+                  <option value="11am-1pm">9pm-11pm</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="date" class="col-form-label">Date</label>
+                <div class="input-group mb-3">
+                  <input
+                    type="text"
+                    class="form-control datepicker"
+                    placeholder="Date"
+                    id="date"
+                    name="date"
+                    data-date-format="dd-M-yyyy"
+                    readonly
+                  />
+                  <div class="input-group-append">
+                    <span class="input-group-text"
+                      ><i class="fa fa-calendar"></i
+                    ></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="expiry-date" class="col-form-label"
+                  >Expiry Date</label
+                >
+                <br />
+                <p class="text-muted">
+                  *Ensure that the food is 6 months before expiry*
+                </p>
+                <div class="input-group mb-3">
+                  <input
+                    type="text"
+                    class="form-control datepicker"
+                    placeholder="Expiry Date"
+                    id="expiry-date"
+                    name="expiry-date"
+                    data-date-format="dd-M-yyyy"
+                    readonly
+                  />
+                  <div class="input-group-append">
+                    <span class="input-group-text"
+                      ><i class="fa fa-calendar"></i
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="text-center" style="padding-bottom: 35px">
+          <div class="text-center" style="width: 100%">
+            <button type="button" class="btn btn-warning">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--   Section Ends Here-->
+
+  <!-- footer starts here -->
+  <footer
+    class="bg-black footer-a pb-30"
+    data-overlay="1"
+    style="background-image: url('img/bg/ftr.jpg')"
+  >
+    <div class="container z-5">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="footer-newsletter bg-yellow">
+            <div class="row align-items-center">
+              <div class="col-lg-6 text-center text-lg-left">
+                <h2 class="fs-35 f-600 slab">Subscribe To Our Newsletter</h2>
+              </div>
+              <div class="col-lg-6 text-center text-lg-right">
+                <form
+                  action="https://tinyletter.com/Hisham"
+                  method="post"
+                  target="popupwindow"
+                  onsubmit="window.open('https://tinyletter.com/Hisham', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
+                >
+                  <div class="callback-footer-2 d-flex flex-column flex-sm-row">
+                    <input
+                      type="email"
+                      name="email"
+                      id="tlemail"
+                      data-behavior="placeholder"
+                      placeholder="Email Address"
+                      class="form-control input-white shadow-2"
+                      placeholder="Email Address"
+                      required
+                    />
+                    <input type="hidden" value="1" name="embed" />
+                    <input
+                      type="submit"
+                      class="btn btn-black ml-20 ml-xs-00 mt-xs-15"
+                      value="Subscribe"
+                    />
+                    <input type="hidden" value="1" name="embed" />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container z-5">
+      <div class="row mt-15 justify-content-center">
+        <div class="col-lg-2 col-sm-6 pl-10 pl-md-15 mb-md-30">
+          <h4 class="fs-18 f-700 slab yellow opacity-8" style="color: white">
+            About Us
+          </h4>
+          <ul class="footer-links">
+            <li><a href="#">Vision</a></li>
+            <li><a href="#">Mission</a></li>
+            <li><a href="#">History</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-6 pl-20 pl-md-15 mb-md-30">
+          <h4 class="fs-18 f-700 slab yellow opacity-8" style="color: white">
+            Quick Links
+          </h4>
+          <ul class="footer-links">
+            <li><a href="##">Home</a></li>
+            <li><a href="##">About</a></li>
+            <li><a href="##">Gallery</a></li>
+            <li><a href="##">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-12">
+          <div class="hr-2 bg-light-white mt-60 mb-30 opacity-1"></div>
+        </div>
+      </div>
+      <div class="row copy-footer">
+        <div class="col-sm-6 text-center text-sm-left">
+          <p class="mb-0 mb-xs-15">
+            © 2021 Tuaam Foundation, All Rights Reserved
+          </p>
+        </div>
+        <div class="col-sm-6 text-center text-sm-right">
+          <ul class="social-icons team-social footer-social">
+            <li>
+              <a href="https://m.facebook.com/TTMPAK"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="scroll-btn bg-blue opacity-0"
+      ><i class="fas fa-arrow-up"></i
+    ></a>
+  </footer>
+  <!-- footer end -->
+
+  <!-- JS Files/Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+  <script src="js/modernizr-3.5.0.min.js"></script>
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.nice-select.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/jquery.meanmenu.min.js"></script>
+  <script src="js/jquery.event.move.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/style.js"></script>
+  <script
+    src="https://kit.fontawesome.com/81b4ce2477.js"
+    crossorigin="anonymous"
+  ></script>
+</body>
